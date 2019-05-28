@@ -1,4 +1,4 @@
-import {SparqlEndpointFetcher} from "fetch-sparql-endpoint";
+import {ISparqlEndpointFetcherArgs, SparqlEndpointFetcher} from "fetch-sparql-endpoint";
 import {IQueryEngine} from "graphql-ld/lib/IQueryEngine";
 import {Algebra, toSparql} from "sparqlalgebrajs";
 import * as stringifyStream from "stream-to-string";
@@ -11,8 +11,8 @@ export class QueryEngineSparqlEndpoint implements IQueryEngine {
   private readonly fetcher: SparqlEndpointFetcher;
   private readonly url: string;
 
-  constructor(url: string) {
-    this.fetcher = new SparqlEndpointFetcher();
+  constructor(url: string, fetcherOptions?: ISparqlEndpointFetcherArgs) {
+    this.fetcher = new SparqlEndpointFetcher(fetcherOptions);
     this.url = url;
   }
 
