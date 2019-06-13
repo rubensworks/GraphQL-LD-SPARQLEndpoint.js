@@ -33,6 +33,23 @@ const query = `
 const { data } = await client.query({ query });
 ```
 
+## Command-line usage
+
+If you install this package globally (`yarn global add graphql-ld-sparqlendpoint`),
+then you'll have access to the `graphql-ld-sparqlendpoint` script to execute GraphQL-LD queries from the command-line as follows:
+
+**Query based on context and query strings:**
+
+```
+$ graphql-ld-sparqlendpoint '{ "hero": "http://example.org/hero", "name": "http://example.org/name" }'{ hero { name } }' http://dbpedia.org/sparql
+```
+
+**Query based on context and query files:**
+
+```
+$ graphql-ld-sparqlendpoint context.json query.txt http://dbpedia.org/sparql
+```
+
 ## License
 This software is written by [Ruben Taelman](http://rubensworks.net/).
 
