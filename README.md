@@ -41,7 +41,7 @@ then you'll have access to the `graphql-ld-sparqlendpoint` script to execute Gra
 **Query based on context and query strings:**
 
 ```
-$ graphql-ld-sparqlendpoint '{ "hero": "http://example.org/hero", "name": "http://example.org/name" }'{ hero { name } }' http://dbpedia.org/sparql
+$ graphql-ld-sparqlendpoint '{ "hero": "http://example.org/hero", "name": "http://example.org/name" }' '{ hero { name } }' http://dbpedia.org/sparql
 ```
 
 **Query based on context and query files:**
