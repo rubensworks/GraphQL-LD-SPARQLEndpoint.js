@@ -39,7 +39,7 @@
     "@types/graphql": "^14.0.0",
     "@types/jest": "^24.0.0",
     "@types/minimist": "^1.2.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "3.0.5",
     "jest": "^24.8.0",
     "manual-git-changelog": "^1.0.1",
     "pre-commit": "^1.2.2",
