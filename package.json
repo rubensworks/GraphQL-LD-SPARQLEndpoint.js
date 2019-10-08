@@ -82,7 +82,7 @@
   "dependencies": {
     "fetch-sparql-endpoint": "^1.4.0",
     "graphql-ld": "^1.0.0",
-    "sparqlalgebrajs": "^1.5.2",
+    "sparqlalgebrajs": "^2.0.0",
     "stream-to-string": "^1.2.0"
   }
 }
