@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/rubensworks/graphql-ld-sparqlendpoint.js.svg?branch=master)](https://travis-ci.org/rubensworks/graphql-ld-sparqlendpoint.js)
 [![Coverage Status](https://coveralls.io/repos/github/rubensworks/graphql-ld-sparqlendpoint.js/badge.svg?branch=master)](https://coveralls.io/github/rubensworks/graphql-ld-sparqlendpoint.js?branch=master)
-[![npm version](https://badge.fury.io/js/graphql-ld-sparqlendpoint.svg)](https://www.npmjs.com/package/graphql-ld-sparqlendpoint) [![Greenkeeper badge](https://badges.greenkeeper.io/rubensworks/graphql-ld-sparqlendpoint.js.svg)](https://greenkeeper.io/)
+[![npm version](https://badge.fury.io/js/graphql-ld-sparqlendpoint.svg)](https://www.npmjs.com/package/graphql-ld-sparqlendpoint)
 
 This is a [GraphQL-LD](https://github.com/rubensworks/graphql-ld.js) engine for executing queries against a remote _SPARQL endpoint_.
 
