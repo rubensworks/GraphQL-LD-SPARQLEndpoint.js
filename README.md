@@ -1,6 +1,6 @@
 # SPARQL Endpoint for GraphQL-LD
 
-[![Build Status](https://travis-ci.org/rubensworks/graphql-ld-sparqlendpoint.js.svg?branch=master)](https://travis-ci.org/rubensworks/graphql-ld-sparqlendpoint.js)
+[![Build status](https://github.com/rubensworks/graphql-ld-sparqlendpoint.js/workflows/CI/badge.svg)](https://github.com/rubensworks/graphql-ld-sparqlendpoint.js/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/rubensworks/graphql-ld-sparqlendpoint.js/badge.svg?branch=master)](https://coveralls.io/github/rubensworks/graphql-ld-sparqlendpoint.js?branch=master)
 [![npm version](https://badge.fury.io/js/graphql-ld-sparqlendpoint.svg)](https://www.npmjs.com/package/graphql-ld-sparqlendpoint)
 
