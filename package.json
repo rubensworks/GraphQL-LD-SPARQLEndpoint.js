@@ -25,9 +25,12 @@
   "files": [
     "lib/**/*.d.ts",
     "lib/**/*.js",
+    "lib/**/*.js.map",
     "bin/**/*.d.ts",
     "bin/**/*.js",
+    "lib/**/*.js.map",
     "index.d.ts",
+    "index.js.map",
     "index.js"
   ],
   "pre-commit": [
