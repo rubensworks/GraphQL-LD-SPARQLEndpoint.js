@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v1.0.2"></a>
+## [v1.0.2](https://github.com/rubensworks/graphql-ld-sparqlendpoint.js/compare/v1.0.0...v1.0.2) - 2022-11-09
+
+### Fixed
+* [Include source map files in packed files](https://github.com/rubensworks/graphql-ld-sparqlendpoint.js/commit/b514f118628bfe165fc4cf34869b15519afb71fd)
+
 <a name="v1.0.1"></a>
 ## [v1.0.1](https://github.com/rubensworks/graphql-ld-sparqlendpoint.js/compare/v1.0.0...v1.0.1) - 2020-07-04
 
