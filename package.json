@@ -87,7 +87,7 @@
     "version": "manual-git-changelog onversion"
   },
   "dependencies": {
-    "fetch-sparql-endpoint": "^1.4.0",
+    "fetch-sparql-endpoint": "^6.0.0",
     "graphql-ld": "^1.0.0",
     "sparqlalgebrajs": "^2.2.2",
     "stream-to-string": "^1.2.0"
