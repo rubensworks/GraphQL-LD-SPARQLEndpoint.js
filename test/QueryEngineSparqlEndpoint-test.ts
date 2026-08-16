@@ -50,6 +50,7 @@ describe('QueryEngineSparqlEndpoint', () => {
   }
 }`),
         headers: new Headers({ 'Content-Type': 'application/sparql-results+json' }),
+        ok: true,
         status: 200,
       }),
     });
