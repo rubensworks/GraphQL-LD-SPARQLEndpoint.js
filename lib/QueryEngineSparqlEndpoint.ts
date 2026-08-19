@@ -19,7 +19,7 @@ export class QueryEngineSparqlEndpoint implements IQueryEngine {
   public async query(query: Algebra.Operation, options?: any): Promise<any> {
     const queryString: string = toSparql(query);
     const responseStream = (await this.fetcher.fetchRawStream(
-      this.url, queryString, SparqlEndpointFetcher.CONTENTTYPE_SPARQL_JSON))[1];
+      this.url, queryString, SparqlEndpointFetcher.CONTENTTYPE_SPARQL_JSON))[2];
     let output = await stringifyStream(responseStream);
     // Replace invalid JSON characters, which can occur for some endpoints.
     output = output.replace(/\x1a/g, ' ');
