@@ -1,7 +1,7 @@
 import {ISparqlEndpointFetcherArgs, SparqlEndpointFetcher} from "fetch-sparql-endpoint";
 import {IQueryEngine} from "graphql-ld/lib/IQueryEngine";
 import {Algebra, toSparql} from "sparqlalgebrajs";
-import * as stringifyStream from "stream-to-string";
+import stringifyStream = require("stream-to-string");
 
 /**
  * Allows a SPARQL endpoint to be used by URL as a GraphQL-LD query engine.
